@@ -70,7 +70,10 @@
             putOrderStyle(i);
         }
         putStyle("blockquote[data-order]{");
-        putStyle("margin:10px;");
+        putStyle("margin-left:0px;");
+        putStyle("padding-left:20px;");
+        putStyle("margin-top:10px;");
+        putStyle("margin-bottom:10px;");
         putStyle("}");
 
         if (GM_addStyle) {
